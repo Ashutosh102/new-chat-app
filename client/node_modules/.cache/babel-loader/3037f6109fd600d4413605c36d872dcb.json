@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nmodule.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => \"%\".concat(x.charCodeAt(0).toString(16).toUpperCase()));","map":null,"metadata":{},"sourceType":"script"}

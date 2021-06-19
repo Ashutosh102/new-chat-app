@@ -1,0 +1,2 @@
+web: node server/index.js
+web: start client
